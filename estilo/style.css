@@ -163,6 +163,7 @@ div#video {
     padding: 20px;
     position: relative;
     padding-bottom: 56.5%;
+    margin-bottom: 20px;
 }
 
 div#video > iframe {
