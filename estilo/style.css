@@ -37,16 +37,16 @@ a.externo::after { /* pseudo-elemento */
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     color: white;
-    height: 180px;
+    min-height: 180px;
     box-shadow: 1px 1px 2px black;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    
 }
 
 header > h1 {
     font-family: var(--fonte-destaque);
-    padding: 30px;
+    margin-bottom: 20px;
     font-weight: lighter;
     font-size: 3em;
     color: white;
@@ -58,10 +58,10 @@ header p {
     font-size: 1.2em;
     color: white;
     max-width: 550px;
+    margin: auto;
     padding-right: 10px;
     padding-left: 10px;
-    margin: auto;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.352);
 }
 
